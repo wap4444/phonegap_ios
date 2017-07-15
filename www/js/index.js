@@ -37,15 +37,14 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var ref = cordova.InAppBrowser.open('http://top-star.kz/fr7/index.php' , '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
-
-var rr=0;
+        alert('receivedEvent');
     }
 
     
 
 function sendTag() {
-var ref = cordova.InAppBrowser.open('http://top-star.kz/fr7/index.php' , '_blank', 'location=no,toolbar=no,disallowoverscroll=yes');
+    alert('sendTag');
+var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
 }
 
 app.initialize();
